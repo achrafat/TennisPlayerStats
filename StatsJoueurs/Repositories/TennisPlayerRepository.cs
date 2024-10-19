@@ -1,4 +1,5 @@
 ﻿using Newtonsoft.Json;
+using StatsJoueurs.Exceptions;
 using StatsJoueurs.Interfaces;
 using StatsJoueurs.Models;
 
@@ -12,6 +13,18 @@ namespace StatsJoueurs.Repositories
         public TennisPlayerRepository()
         {
             _players = LoadFromFile();
+        }
+
+        public Player GetPlayerById(int id)
+        {
+            var player = _players.FirstOrDefault(p => p.Id == id);
+
+            if (player == null)
+            {
+                throw new PlayerNotFoundException(id);
+            }
+
+            return player;
         }
 
         public IEnumerable<Player> GetPlayers() => _players;

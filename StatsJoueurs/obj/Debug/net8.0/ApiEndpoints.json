@@ -18,5 +18,31 @@
         "StatusCode": 200
       }
     ]
+  },
+  {
+    "ContainingType": "StatsJoueurs.Controllers.TennisPlayerStatsController",
+    "Method": "GetPlayerById",
+    "RelativePath": "api/TennisPlayerStats/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "StatsJoueurs.Models.Player",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   }
 ]

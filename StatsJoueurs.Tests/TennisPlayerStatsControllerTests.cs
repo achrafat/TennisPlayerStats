@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using Moq;
 using Newtonsoft.Json;
 using StatsJoueurs.Controllers;
+using StatsJoueurs.Exceptions;
 using StatsJoueurs.Interfaces;
 using StatsJoueurs.Models;
 
@@ -52,6 +53,38 @@ namespace StatsJoueurs.Tests
             var notFoundResult = Assert.IsType<OkObjectResult>(result.Result);
             var players = Assert.IsAssignableFrom<IEnumerable<Player>>(notFoundResult.Value);
             Assert.Empty(players);
+        }
+        [Fact]
+        public void GetPlayerById_ReturnsPlayer_WhenPlayerExists()
+        {
+            // Arrange
+            var playerId = 17; 
+            var expectedPlayer = _TestPlayers.First(p => p.Id == playerId);
+
+            _mockService.Setup(s => s.GetPlayerById(playerId)).Returns(expectedPlayer);
+
+            // Act
+            var result = _controller_sut.GetPlayerById(playerId);
+
+            // Assert
+            var okResult = Assert.IsType<OkObjectResult>(result.Result);
+            var player = Assert.IsAssignableFrom<Player>(okResult.Value);
+            Assert.Equal(expectedPlayer.Id, player.Id);
+        }
+        [Fact]
+        public void GetPlayerById_ReturnsNotFound_WhenPlayerDoesNotExist()
+        {
+            // Arrange
+            var playerId = 21; // ID d'un joueur qui n'existe pas
+
+            _mockService.Setup(s => s.GetPlayerById(playerId)).Throws(new PlayerNotFoundException(playerId));
+
+            // Act
+            var result = _controller_sut.GetPlayerById(playerId);
+
+            // Assert
+            var notFoundResult = Assert.IsType<NotFoundObjectResult>(result.Result);
+            Assert.Equal($"Player with ID {playerId} not found.", notFoundResult.Value);
         }
 
     }
