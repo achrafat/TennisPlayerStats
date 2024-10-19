@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\atiaa\\Desktop\\Test Technique L’Atelier - Backend\\StatsJoueurs\\StatsJoueurs\\StatsJoueurs.csproj": {}
+    "C:\\Users\\atiaa\\Desktop\\Test\\WebApiTennisPlayerStats\\StatsJoueurs\\StatsJoueurs.csproj": {}
   },
   "projects": {
-    "C:\\Users\\atiaa\\Desktop\\Test Technique L’Atelier - Backend\\StatsJoueurs\\StatsJoueurs\\StatsJoueurs.csproj": {
+    "C:\\Users\\atiaa\\Desktop\\Test\\WebApiTennisPlayerStats\\StatsJoueurs\\StatsJoueurs.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\atiaa\\Desktop\\Test Technique L’Atelier - Backend\\StatsJoueurs\\StatsJoueurs\\StatsJoueurs.csproj",
+        "projectUniqueName": "C:\\Users\\atiaa\\Desktop\\Test\\WebApiTennisPlayerStats\\StatsJoueurs\\StatsJoueurs.csproj",
         "projectName": "StatsJoueurs",
-        "projectPath": "C:\\Users\\atiaa\\Desktop\\Test Technique L’Atelier - Backend\\StatsJoueurs\\StatsJoueurs\\StatsJoueurs.csproj",
+        "projectPath": "C:\\Users\\atiaa\\Desktop\\Test\\WebApiTennisPlayerStats\\StatsJoueurs\\StatsJoueurs.csproj",
         "packagesPath": "C:\\Users\\atiaa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\atiaa\\Desktop\\Test Technique L’Atelier - Backend\\StatsJoueurs\\StatsJoueurs\\obj\\",
+        "outputPath": "C:\\Users\\atiaa\\Desktop\\Test\\WebApiTennisPlayerStats\\StatsJoueurs\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\atiaa\\AppData\\Roaming\\NuGet\\NuGet.Config",
