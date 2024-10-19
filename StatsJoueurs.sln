@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StatsJoueurs", "StatsJoueurs\StatsJoueurs.csproj", "{CAE2A10A-B817-49F6-A812-7871E8862963}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StatsJoueurs.Tests", "StatsJoueurs.Tests\StatsJoueurs.Tests.csproj", "{CCB94292-7946-4378-9F6A-AB2E10CBC442}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CAE2A10A-B817-49F6-A812-7871E8862963}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAE2A10A-B817-49F6-A812-7871E8862963}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAE2A10A-B817-49F6-A812-7871E8862963}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAE2A10A-B817-49F6-A812-7871E8862963}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCB94292-7946-4378-9F6A-AB2E10CBC442}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCB94292-7946-4378-9F6A-AB2E10CBC442}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCB94292-7946-4378-9F6A-AB2E10CBC442}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCB94292-7946-4378-9F6A-AB2E10CBC442}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0CDA8571-5A7B-4311-AD38-252D186C416D}
+	EndGlobalSection
+EndGlobal
