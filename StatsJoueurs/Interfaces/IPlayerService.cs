@@ -6,5 +6,6 @@ namespace StatsJoueurs.Interfaces
     {
         IEnumerable<Player> GetPlayers();
         Player GetPlayerById(int id);
+        Statistics GetStatistics();
     }
 }

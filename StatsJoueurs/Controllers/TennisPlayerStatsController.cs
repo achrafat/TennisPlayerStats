@@ -37,6 +37,12 @@ namespace StatsJoueurs.Controllers
                 return NotFound(ex.Message); 
             }
         }
+        [HttpGet("stats")]
+        public ActionResult<Statistics> GetStatistics()
+        {
+            var statistics = _service.GetStatistics();
+            return Ok(statistics);
+        }
 
     }
 }

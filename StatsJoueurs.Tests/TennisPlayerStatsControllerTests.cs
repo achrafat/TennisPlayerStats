@@ -18,14 +18,14 @@ namespace StatsJoueurs.Tests
         {
             _mockService = new Mock<IPlayerService>();
             _controller_sut = new TennisPlayerStatsController(_mockService.Object);
-            _TestPlayers = LoadPlayersFromJsonFile("C:\\Users\\atiaa\\Desktop\\Test Technique L’Atelier - Backend\\StatsJoueurs\\StatsJoueurs.Tests\\TestPlayers.json");
+            _TestPlayers = PlayerListForTest.LoadPlayersFromJsonFile("C:\\Users\\atiaa\\Desktop\\Test Technique L’Atelier - Backend\\StatsJoueurs\\StatsJoueurs.Tests\\TestPlayers.json");
         }
-        private List<Player> LoadPlayersFromJsonFile(string filePath)
+       /* private List<Player> LoadPlayersFromJsonFile(string filePath)
         {
             var jsonData = File.ReadAllText(filePath);
             var playerList = JsonConvert.DeserializeObject<PlayerList>(jsonData);
             return playerList.Players;
-        }
+        }*/
         [Fact]
         public void GetPlayers_ReturnsPlayers()
         {
@@ -85,6 +85,29 @@ namespace StatsJoueurs.Tests
             // Assert
             var notFoundResult = Assert.IsType<NotFoundObjectResult>(result.Result);
             Assert.Equal($"Player with ID {playerId} not found.", notFoundResult.Value);
+        }
+        [Fact]
+        public void GetStatistics_ReturnsStatistics()
+        {
+            // Arrange
+            var expectedStatistics = new Statistics
+            {
+                CountryWithHighestWinRatio = "ESP",
+                AverageBMI = 24.5,
+                MedianHeight = 185
+            };
+
+            _mockService.Setup(s => s.GetStatistics()).Returns(expectedStatistics);
+
+            // Act
+            var result = _controller_sut.GetStatistics();
+
+            // Assert
+            var okResult = Assert.IsType<OkObjectResult>(result.Result);
+            var statistics = Assert.IsType<Statistics>(okResult.Value);
+            Assert.Equal(expectedStatistics.CountryWithHighestWinRatio, statistics.CountryWithHighestWinRatio);
+            Assert.Equal(expectedStatistics.AverageBMI, statistics.AverageBMI);
+            Assert.Equal(expectedStatistics.MedianHeight, statistics.MedianHeight);
         }
 
     }
