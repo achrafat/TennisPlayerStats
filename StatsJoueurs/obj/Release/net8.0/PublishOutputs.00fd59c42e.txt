@@ -1,0 +1,13 @@
+C:\Users\atiaa\Desktop\Test\WebApiTennisPlayerStats\StatsJoueurs\obj\Release\net8.0\PubTmp\Out\StatsJoueurs.exe
+C:\Users\atiaa\Desktop\Test\WebApiTennisPlayerStats\StatsJoueurs\obj\Release\net8.0\PubTmp\Out\appsettings.Development.json
+C:\Users\atiaa\Desktop\Test\WebApiTennisPlayerStats\StatsJoueurs\obj\Release\net8.0\PubTmp\Out\appsettings.json
+C:\Users\atiaa\Desktop\Test\WebApiTennisPlayerStats\StatsJoueurs\obj\Release\net8.0\PubTmp\Out\Data\TennisPlayerStats.json
+C:\Users\atiaa\Desktop\Test\WebApiTennisPlayerStats\StatsJoueurs\obj\Release\net8.0\PubTmp\Out\StatsJoueurs.dll
+C:\Users\atiaa\Desktop\Test\WebApiTennisPlayerStats\StatsJoueurs\obj\Release\net8.0\PubTmp\Out\StatsJoueurs.deps.json
+C:\Users\atiaa\Desktop\Test\WebApiTennisPlayerStats\StatsJoueurs\obj\Release\net8.0\PubTmp\Out\StatsJoueurs.runtimeconfig.json
+C:\Users\atiaa\Desktop\Test\WebApiTennisPlayerStats\StatsJoueurs\obj\Release\net8.0\PubTmp\Out\StatsJoueurs.pdb
+C:\Users\atiaa\Desktop\Test\WebApiTennisPlayerStats\StatsJoueurs\obj\Release\net8.0\PubTmp\Out\Microsoft.OpenApi.dll
+C:\Users\atiaa\Desktop\Test\WebApiTennisPlayerStats\StatsJoueurs\obj\Release\net8.0\PubTmp\Out\Newtonsoft.Json.dll
+C:\Users\atiaa\Desktop\Test\WebApiTennisPlayerStats\StatsJoueurs\obj\Release\net8.0\PubTmp\Out\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\atiaa\Desktop\Test\WebApiTennisPlayerStats\StatsJoueurs\obj\Release\net8.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\atiaa\Desktop\Test\WebApiTennisPlayerStats\StatsJoueurs\obj\Release\net8.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerUI.dll

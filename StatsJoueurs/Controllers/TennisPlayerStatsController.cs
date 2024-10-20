@@ -6,7 +6,7 @@ using StatsJoueurs.Models;
 
 namespace StatsJoueurs.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("/")]
     [ApiController]
     public class TennisPlayerStatsController : ControllerBase
     {
