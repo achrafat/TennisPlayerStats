@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Mvc;
 using StatsJoueurs.Interfaces;
 using StatsJoueurs.Repositories;
 using StatsJoueurs.Services;
@@ -14,6 +15,29 @@ builder.Services.AddScoped<IPlayerRepository, TennisPlayerRepository>();
 builder.Services.AddScoped<IPlayerService, TennisPlayerService>();
 
 var app = builder.Build();
+
+// Gestion centralisée des exceptions pour renvoyer des ProblemDetails
+app.Use(async (context, next) =>
+{
+    try
+    {
+        await next();
+    }
+    catch (Exception ex)
+    {
+        var problemDetails = new ProblemDetails
+        {
+            Status = StatusCodes.Status500InternalServerError,
+            Title = "An error occurred while processing your request.",
+            Detail = ex.Message,
+            Instance = context.Request.Path
+        };
+
+        context.Response.StatusCode = StatusCodes.Status500InternalServerError;
+        context.Response.ContentType = "application/problem+json";
+        await context.Response.WriteAsJsonAsync(problemDetails);
+    }
+});
 
 // Configure the HTTP request pipeline.
 

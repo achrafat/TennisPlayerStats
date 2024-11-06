@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\atiaa\\Desktop\\Test\\WebApiTennisPlayerStats\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{CAE2A10A-B817-49F6-A812-7871E8862963}|StatsJoueurs\\StatsJoueurs.csproj|c:\\users\\atiaa\\desktop\\test\\webapitennisplayerstats\\statsjoueurs\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAE2A10A-B817-49F6-A812-7871E8862963}|StatsJoueurs\\StatsJoueurs.csproj|solutionrelative:statsjoueurs\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CCB94292-7946-4378-9F6A-AB2E10CBC442}|StatsJoueurs.Tests\\StatsJoueurs.Tests.csproj|c:\\users\\atiaa\\desktop\\test\\webapitennisplayerstats\\statsjoueurs.tests\\tennisplayerservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CCB94292-7946-4378-9F6A-AB2E10CBC442}|StatsJoueurs.Tests\\StatsJoueurs.Tests.csproj|solutionrelative:statsjoueurs.tests\\tennisplayerservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -22,11 +26,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\atiaa\\Desktop\\Test\\WebApiTennisPlayerStats\\StatsJoueurs\\Program.cs",
+              "RelativeDocumentMoniker": "StatsJoueurs\\Program.cs",
+              "ToolTip": "C:\\Users\\atiaa\\Desktop\\Test\\WebApiTennisPlayerStats\\StatsJoueurs\\Program.cs",
+              "RelativeToolTip": "StatsJoueurs\\Program.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAAAC0AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T22:54:28.602Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "TennisPlayerStatsControllerTests.cs",
               "DocumentMoniker": "C:\\Users\\atiaa\\Desktop\\Test\\WebApiTennisPlayerStats\\StatsJoueurs.Tests\\TennisPlayerStatsControllerTests.cs",
               "RelativeDocumentMoniker": "StatsJoueurs.Tests\\TennisPlayerStatsControllerTests.cs",
@@ -34,12 +51,11 @@
               "RelativeToolTip": "StatsJoueurs.Tests\\TennisPlayerStatsControllerTests.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAxwBcAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T10:56:13.086Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-06T10:56:13.086Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "TennisPlayerServiceTests.cs",
               "DocumentMoniker": "C:\\Users\\atiaa\\Desktop\\Test\\WebApiTennisPlayerStats\\StatsJoueurs.Tests\\TennisPlayerServiceTests.cs",
               "RelativeDocumentMoniker": "StatsJoueurs.Tests\\TennisPlayerServiceTests.cs",
@@ -52,7 +68,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "TestHelpers.cs",
               "DocumentMoniker": "C:\\Users\\atiaa\\Desktop\\Test\\WebApiTennisPlayerStats\\StatsJoueurs.Tests\\TestHelpers.cs",
               "RelativeDocumentMoniker": "StatsJoueurs.Tests\\TestHelpers.cs",
@@ -60,8 +76,7 @@
               "RelativeToolTip": "StatsJoueurs.Tests\\TestHelpers.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T10:54:12.458Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-06T10:54:12.458Z"
             }
           ]
         }
