@@ -22,8 +22,9 @@ namespace StatsJoueurs.Tests
             _service = new TennisPlayerService(_mockRepository.Object);
 
 
-            _TestPlayers = PlayerListForTest.LoadPlayersFromJsonFile("C:\\Users\\atiaa\\Desktop\\Test Technique L’Atelier - Backend\\StatsJoueurs\\StatsJoueurs.Tests\\TestPlayers.json");
+            _TestPlayers = PlayerListForTest.LoadPlayersFromJsonFile(TestHelpers.GetFilePath("TestPlayers.json"));
         }
+       
         
         [Fact]
         public void GetStatistics_CalculatesCorrectStatistics()

@@ -18,14 +18,9 @@ namespace StatsJoueurs.Tests
         {
             _mockService = new Mock<IPlayerService>();
             _controller_sut = new TennisPlayerStatsController(_mockService.Object);
-            _TestPlayers = PlayerListForTest.LoadPlayersFromJsonFile("C:\\Users\\atiaa\\Desktop\\Test Technique L’Atelier - Backend\\StatsJoueurs\\StatsJoueurs.Tests\\TestPlayers.json");
+            _TestPlayers = PlayerListForTest.LoadPlayersFromJsonFile(TestHelpers.GetFilePath("TestPlayers.json"));
         }
-       /* private List<Player> LoadPlayersFromJsonFile(string filePath)
-        {
-            var jsonData = File.ReadAllText(filePath);
-            var playerList = JsonConvert.DeserializeObject<PlayerList>(jsonData);
-            return playerList.Players;
-        }*/
+        
         [Fact]
         public void GetPlayers_ReturnsPlayers()
         {

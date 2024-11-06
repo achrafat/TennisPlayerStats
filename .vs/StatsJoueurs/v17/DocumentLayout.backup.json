@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\atiaa\\Desktop\\Test\\WebApiTennisPlayerStats\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CCB94292-7946-4378-9F6A-AB2E10CBC442}|StatsJoueurs.Tests\\StatsJoueurs.Tests.csproj|c:\\users\\atiaa\\desktop\\test\\webapitennisplayerstats\\statsjoueurs.tests\\tennisplayerservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCB94292-7946-4378-9F6A-AB2E10CBC442}|StatsJoueurs.Tests\\StatsJoueurs.Tests.csproj|solutionrelative:statsjoueurs.tests\\tennisplayerservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCB94292-7946-4378-9F6A-AB2E10CBC442}|StatsJoueurs.Tests\\StatsJoueurs.Tests.csproj|c:\\users\\atiaa\\desktop\\test\\webapitennisplayerstats\\statsjoueurs.tests\\tennisplayerstatscontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCB94292-7946-4378-9F6A-AB2E10CBC442}|StatsJoueurs.Tests\\StatsJoueurs.Tests.csproj|solutionrelative:statsjoueurs.tests\\tennisplayerstatscontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCB94292-7946-4378-9F6A-AB2E10CBC442}|StatsJoueurs.Tests\\StatsJoueurs.Tests.csproj|c:\\users\\atiaa\\desktop\\test\\webapitennisplayerstats\\statsjoueurs.tests\\testhelpers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCB94292-7946-4378-9F6A-AB2E10CBC442}|StatsJoueurs.Tests\\StatsJoueurs.Tests.csproj|solutionrelative:statsjoueurs.tests\\testhelpers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TennisPlayerStatsControllerTests.cs",
+              "DocumentMoniker": "C:\\Users\\atiaa\\Desktop\\Test\\WebApiTennisPlayerStats\\StatsJoueurs.Tests\\TennisPlayerStatsControllerTests.cs",
+              "RelativeDocumentMoniker": "StatsJoueurs.Tests\\TennisPlayerStatsControllerTests.cs",
+              "ToolTip": "C:\\Users\\atiaa\\Desktop\\Test\\WebApiTennisPlayerStats\\StatsJoueurs.Tests\\TennisPlayerStatsControllerTests.cs",
+              "RelativeToolTip": "StatsJoueurs.Tests\\TennisPlayerStatsControllerTests.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwBcAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T10:56:13.086Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TennisPlayerServiceTests.cs",
+              "DocumentMoniker": "C:\\Users\\atiaa\\Desktop\\Test\\WebApiTennisPlayerStats\\StatsJoueurs.Tests\\TennisPlayerServiceTests.cs",
+              "RelativeDocumentMoniker": "StatsJoueurs.Tests\\TennisPlayerServiceTests.cs",
+              "ToolTip": "C:\\Users\\atiaa\\Desktop\\Test\\WebApiTennisPlayerStats\\StatsJoueurs.Tests\\TennisPlayerServiceTests.cs",
+              "RelativeToolTip": "StatsJoueurs.Tests\\TennisPlayerServiceTests.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T10:54:42.159Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TestHelpers.cs",
+              "DocumentMoniker": "C:\\Users\\atiaa\\Desktop\\Test\\WebApiTennisPlayerStats\\StatsJoueurs.Tests\\TestHelpers.cs",
+              "RelativeDocumentMoniker": "StatsJoueurs.Tests\\TestHelpers.cs",
+              "ToolTip": "C:\\Users\\atiaa\\Desktop\\Test\\WebApiTennisPlayerStats\\StatsJoueurs.Tests\\TestHelpers.cs",
+              "RelativeToolTip": "StatsJoueurs.Tests\\TestHelpers.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T10:54:12.458Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

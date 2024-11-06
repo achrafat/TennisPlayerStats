@@ -1,0 +1,50 @@
+{
+  "players": [
+    {
+      "id": 2,
+      "firstname": "Serena",
+      "lastname": "Williams",
+      "shortname": "S.WIL",
+      "sex": "F",
+      "country": {
+        "picture": "https://data.latelier.co/training/tennis_stats/resources/USA.png",
+        "code": "USA"
+      },
+      "picture": "https://data.latelier.co/training/tennis_stats/resources/Serena.png",
+      "data": {
+        "rank": 10,
+        "points": 3521,
+        "weight": 72000,
+        "height": 175,
+        "age": 37,
+        "last": [ 0, 1, 1, 1, 0 ]
+      }
+    },
+    {
+      "id": 17,
+      "firstname": "Rafael",
+      "lastname": "Nadal",
+      "shortname": "R.NAD",
+      "sex": "M",
+      "country": {
+        "picture": "https://data.latelier.co/training/tennis_stats/resources/Espagne.png",
+        "code": "ESP"
+      },
+      "picture": "https://data.latelier.co/training/tennis_stats/resources/Nadal.png",
+      "data": {
+        "rank": 1,
+        "points": 1982,
+        "weight": 85000,
+        "height": 185,
+        "age": 33,
+        "last": [
+          1,
+          0,
+          0,
+          0,
+          1
+        ]
+      }
+    }
+  ]
+}

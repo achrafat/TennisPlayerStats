@@ -231,3 +231,4 @@ C:\Users\atiaa\Desktop\Test\WebApiTennisPlayerStats\StatsJoueurs.Tests\obj\Debug
 C:\Users\atiaa\Desktop\Test\WebApiTennisPlayerStats\StatsJoueurs.Tests\obj\Debug\net8.0\StatsJoueurs.Tests.pdb
 C:\Users\atiaa\Desktop\Test\WebApiTennisPlayerStats\StatsJoueurs.Tests\obj\Debug\net8.0\StatsJoueurs.Tests.genruntimeconfig.cache
 C:\Users\atiaa\Desktop\Test\WebApiTennisPlayerStats\StatsJoueurs.Tests\obj\Debug\net8.0\ref\StatsJoueurs.Tests.dll
+C:\Users\atiaa\Desktop\Test\WebApiTennisPlayerStats\StatsJoueurs.Tests\bin\Debug\net8.0\TestPlayers.json
